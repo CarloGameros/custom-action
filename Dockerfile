@@ -1,6 +1,6 @@
 FROM ubuntu
 
-COPY entrypoint.sh /envtrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
 
